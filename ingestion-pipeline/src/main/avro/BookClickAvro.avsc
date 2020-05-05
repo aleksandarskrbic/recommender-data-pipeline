@@ -1,0 +1,11 @@
+ {
+  "type" : "record",
+  "name" : "BookClickAvro",
+  "namespace" : "com.github.aleksandarskrbic.events",
+  "fields" : [
+      { "name": "id", "type": "string" },
+      { "name": "userId", "type": ["null", "string"]},
+      { "name": "ipAddress", "type": "string"},
+      { "name": "item", "type": "com.github.aleksandarskrbic.events.BookAvro" }
+  ]
+}

@@ -1,0 +1,17 @@
+ {
+  "type" : "record",
+  "name" : "BookAvro",
+  "namespace" : "com.github.aleksandarskrbic.events",
+  "fields" : [
+      { "name": "itemId", "type": "long" },
+      { "name": "authors", "type": { "type": "array", "items": "string"} },
+      { "name": "categories", "type": { "type": "array", "items": "string"} },
+      { "name": "description", "type": "string" },
+      { "name": "format", "type": "string" },
+      { "name": "lang", "type": "string" },
+      { "name": "date", "type": "string" },
+      { "name": "title", "type": "string" },
+      { "name": "weight", "type": "double" },
+      { "name": "price", "type": "double" }
+  ]
+}

@@ -1,0 +1,11 @@
+ {
+  "type" : "record",
+  "name" : "BookRatingkAvro",
+  "namespace" : "com.github.aleksandarskrbic.events",
+  "fields" : [
+      { "name": "id", "type": "string" },
+      { "name": "userId", "type": "string"},
+      { "name": "rating", "type": "int"},
+      { "name": "item", "type": "com.github.aleksandarskrbic.events.BookAvro" }
+  ]
+}

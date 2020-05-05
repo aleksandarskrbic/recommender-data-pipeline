@@ -1,0 +1,5 @@
+.idea
+
+target/
+project/target
+event-producer/src/main/resources/data/

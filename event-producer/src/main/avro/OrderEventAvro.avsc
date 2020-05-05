@@ -1,0 +1,12 @@
+ {
+  "type" : "record",
+  "name" : "OrderEventAvro",
+  "namespace" : "com.github.aleksandarskrbic.events",
+  "fields" : [
+      { "name": "id", "type": "string" },
+      { "name": "orderId", "type": "string" },
+      { "name": "userId", "type": "string"},
+      { "name": "books", "type": { "type": "array", "items": "com.github.aleksandarskrbic.events.BookAvro" } },
+      { "name": "totalPrice", "type": "double"}
+  ]
+}
